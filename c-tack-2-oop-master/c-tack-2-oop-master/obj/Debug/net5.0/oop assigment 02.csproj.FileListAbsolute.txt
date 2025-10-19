@@ -1,0 +1,15 @@
+E:\Backend\oop assigment 02\oop assigment 02\bin\Debug\net5.0\oop assigment 02.exe
+E:\Backend\oop assigment 02\oop assigment 02\bin\Debug\net5.0\oop assigment 02.deps.json
+E:\Backend\oop assigment 02\oop assigment 02\bin\Debug\net5.0\oop assigment 02.runtimeconfig.json
+E:\Backend\oop assigment 02\oop assigment 02\bin\Debug\net5.0\oop assigment 02.runtimeconfig.dev.json
+E:\Backend\oop assigment 02\oop assigment 02\bin\Debug\net5.0\oop assigment 02.dll
+E:\Backend\oop assigment 02\oop assigment 02\bin\Debug\net5.0\oop assigment 02.pdb
+E:\Backend\oop assigment 02\oop assigment 02\obj\Debug\net5.0\oop assigment 02.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backend\oop assigment 02\oop assigment 02\obj\Debug\net5.0\oop assigment 02.AssemblyInfoInputs.cache
+E:\Backend\oop assigment 02\oop assigment 02\obj\Debug\net5.0\oop assigment 02.AssemblyInfo.cs
+E:\Backend\oop assigment 02\oop assigment 02\obj\Debug\net5.0\oop assigment 02.csproj.CoreCompileInputs.cache
+E:\Backend\oop assigment 02\oop assigment 02\obj\Debug\net5.0\oop assigment 02.dll
+E:\Backend\oop assigment 02\oop assigment 02\obj\Debug\net5.0\refint\oop assigment 02.dll
+E:\Backend\oop assigment 02\oop assigment 02\obj\Debug\net5.0\oop assigment 02.pdb
+E:\Backend\oop assigment 02\oop assigment 02\obj\Debug\net5.0\oop assigment 02.genruntimeconfig.cache
+E:\Backend\oop assigment 02\oop assigment 02\obj\Debug\net5.0\ref\oop assigment 02.dll
