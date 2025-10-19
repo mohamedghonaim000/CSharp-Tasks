@@ -1,0 +1,513 @@
+[33mcommit 0e7ec378258541f87316d0baa5476b5fb2ddad4a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: mohamedghonaim000 <mohamedmokhtar64232@gmail.com>
+Date:   Mon Dec 9 22:17:08 2024 +0200
+
+    first commit
+
+[1mdiff --git a/Program.cs b/Program.cs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..291c7c3[m
+[1m--- /dev/null[m
+[1m+++ b/Program.cs[m
+[36m@@ -0,0 +1,70 @@[m
+[32m+[m[32m﻿using System;[m
+[32m+[m
+[32m+[m[32mnamespace assigment_02[m
+[32m+[m[32m{[m
+[32m+[m[32m    internal class Program[m
+[32m+[m[32m    {[m
+[32m+[m[32m        static void Main(string[] args)[m
+[32m+[m[32m        {[m
+[32m+[m[32m            #region problem one[m
+[32m+[m[32m            //int UserNumber = Convert.ToInt32(Console.ReadLine());[m
+[32m+[m[32m            //if (UserNumber % 3 == 0 && UserNumber % 4 == 0)[m
+[32m+[m[32m            //{[m
+[32m+[m[32m            //    Console.WriteLine("yes");[m
+[32m+[m[32m            //}[m
+[32m+[m[32m            //else[m
+[32m+[m[32m            //{[m
+[32m+[m[32m            //    Console.WriteLine("no");[m
+[32m+[m[32m            //}[m
+[32m+[m[32m            #endregion[m
+[32m+[m[32m            #region problem 2[m[41m [m
+[32m+[m[32m            //int UserNumber = Convert.ToInt32(Console.ReadLine());[m
+[32m+[m[32m            //if (UserNumber <0)[m
+[32m+[m[32m            //{[m
+[32m+[m[32m            //    Console.WriteLine("negative");[m
+[32m+[m[32m            //}[m
+[32m+[m[32m            //else if (UserNumber==0)[m
+[32m+[m[32m            //{[m
+[32m+[m[32m            //    Console.WriteLine("ZERO not positive not negative");[m
+[32m+[m[32m            //}[m
+[32m+[m[32m            //else[m
+[32m+[m[32m            //{[m
+[32m+[m[32m            //    Console.WriteLine("positive");[m
+[32m+[m[32m            //}[m
+[32m+[m[32m            #endregion[m
+[32m+[m[32m            #region problem 3[m
+[32m+[m[32m            int UserNumber1 = Convert.ToInt32(Console.ReadLine());[m
+[32m+[m[32m            int UserNumber2 = Convert.ToInt32(Console.ReadLine());[m
+[32m+[m[32m            int UserNumber3 = Convert.ToInt32(Console.ReadLine());[m
+[32m+[m[32m            if (UserNumber1 > UserNumber2 && UserNumber1> UserNumber3)[m
+[32m+[m[32m            {[m
+[32m+[m[32m                Console.WriteLine($"the max number equal {UserNumber1}");[m
+[32m+[m[32m            }[m
+[32m+[m[32m            if (UserNumber1 == UserNumber2 && UserNumber1 > UserNumber3)[m
+[32m+[m[32m            {[m
+[32m+[m[32m                Console.WriteLine($"the max number equal {UserNumber1}");[m
+[32m+[m[32m            }[m
+[32m+[m[32m            else if (UserNumber2 > UserNumber1 && UserNumber2 > UserNumber3)[m
+[32m+[m[32m            {[m
+[32m+[m[32m                Console.WriteLine($"the max number equal {UserNumber2}");[m
+[32m+[m[32m            }[m
+[32m+[m[32m            else if( UserNumber3 > UserNumber2 && UserNumber3 > UserNumber1 )[m
+[32m+[m[32m            {[m
+[32m+[m[32m                Console.WriteLine($"the max number equal {UserNumber3}");[m
+[32m+[m[32m            }[m
+[32m+[m[32m            else if (UserNumber3 == UserNumber2 && UserNumber3 > UserNumber1)[m
+[32m+[m[32m            {[m
+[32m+[m[32m                Console.WriteLine($"the max number equal {UserNumber3}");[m
+[32m+[m[32m            }[m
+[32m+[m[32m            else if (UserNumber3 == UserNumber1 && UserNumber3 > UserNumber2)[m
+[32m+[m[32m            {[m
+[32m+[m[32m                Console.WriteLine($"the max number equal {UserNumber3}");[m
+[32m+[m[32m            }[m
+[32m+[m[32m            else[m
+[32m+[m[32m            {[m
+[32m+[m[32m                Console.WriteLine("the three numbers are equal");[m
+[32m+[m[32m            }[m
+[32m+[m[32m            #endregion[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
+[1mdiff --git a/assigment 02.csproj b/assigment 02.csproj[m
+[1mnew file mode 100644[m
+[1mindex 0000000..17aae78[m
+[1m--- /dev/null[m
+[1m+++ b/assigment 02.csproj[m	
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m<Project Sdk="Microsoft.NET.Sdk">[m
+[32m+[m
+[32m+[m[32m  <PropertyGroup>[m
+[32m+[m[32m    <OutputType>Exe</OutputType>[m
+[32m+[m[32m    <TargetFramework>net5.0</TargetFramework>[m
+[32m+[m[32m    <RootNamespace>assigment_02</RootNamespace>[m
+[32m+[m[32m  </PropertyGroup>[m
+[32m+[m
+[32m+[m[32m</Project>[m
+[1mdiff --git a/bin/Debug/net5.0/assigment 02.deps.json b/bin/Debug/net5.0/assigment 02.deps.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..28e120c[m
+[1m--- /dev/null[m
+[1m+++ b/bin/Debug/net5.0/assigment 02.deps.json[m	
+[36m@@ -0,0 +1,23 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "runtimeTarget": {[m
+[32m+[m[32m    "name": ".NETCoreApp,Version=v5.0",[m
+[32m+[m[32m    "signature": ""[m
+[32m+[m[32m  },[m
+[32m+[m[32m  "compilationOptions": {},[m
+[32m+[m[32m  "targets": {[m
+[32m+[m[32m    ".NETCoreApp,Version=v5.0": {[m
+[32m+[m[32m      "assigment 02/1.0.0": {[m
+[32m+[m[32m        "runtime": {[m
+[32m+[m[32m          "assigment 02.dll": {}[m
+[32m+[m[32m        }[m
+[32m+[m[32m      }[m
+[32m+[m[32m    }[m
+[32m+[m[32m  },[m
+[32m+[m[32m  "libraries": {[m
+[32m+[m[32m    "assigment 02/1.0.0": {[m
+[32m+[m[32m      "type": "project",[m
+[32m+[m[32m      "serviceable": false,[m
+[32m+[m[32m      "sha512": ""[m
+[32m+[m[32m    }[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bin/Debug/net5.0/assigment 02.dll b/bin/Debug/net5.0/assigment 02.dll[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3a6fead[m
+Binary files /dev/null and b/bin/Debug/net5.0/assigment 02.dll differ
+[1mdiff --git a/bin/Debug/net5.0/assigment 02.exe b/bin/Debug/net5.0/assigment 02.exe[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c781f80[m
+Binary files /dev/null and b/bin/Debug/net5.0/assigment 02.exe differ
+[1mdiff --git a/bin/Debug/net5.0/assigment 02.pdb b/bin/Debug/net5.0/assigment 02.pdb[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6f623f8[m
+Binary files /dev/null and b/bin/Debug/net5.0/assigment 02.pdb differ
+[1mdiff --git a/bin/Debug/net5.0/assigment 02.runtimeconfig.dev.json b/bin/Debug/net5.0/assigment 02.runtimeconfig.dev.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..91361e1[m
+[1m--- /dev/null[m
+[1m+++ b/bin/Debug/net5.0/assigment 02.runtimeconfig.dev.json[m	
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "runtimeOptions": {[m
+[32m+[m[32m    "additionalProbingPaths": [[m
+[32m+[m[32m      "C:\\Users\\moham\\.dotnet\\store\\|arch|\\|tfm|",[m
+[32m+[m[32m      "C:\\Users\\moham\\.nuget\\packages",[m
+[32m+[m[32m      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"[m
+[32m+[m[32m    ][m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/bin/Debug/net5.0/assigment 02.runtimeconfig.json b/bin/Debug/net5.0/assigment 02.runtimeconfig.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a8e7e82[m
+[1m--- /dev/null[m
+[1m+++ b/bin/Debug/net5.0/assigment 02.runtimeconfig.json[m	
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "runtimeOptions": {[m
+[32m+[m[32m    "tfm": "net5.0",[m
+[32m+[m[32m    "framework": {[m
+[32m+[m[32m      "name": "Microsoft.NETCore.App",[m
+[32m+[m[32m      "version": "5.0.0"[m
+[32m+[m[32m    }[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs b/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3b1554c[m
+[1m--- /dev/null[m
+[1m+++ b/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m// <autogenerated />[m
+[32m+[m[32musing System;[m
+[32m+[m[32musing System.Reflection;[m
+[32m+[m[32m[assembly: global::System.Runtime.Versioning.TargetFrameworkAttribute(".NETCoreApp,Version=v5.0", FrameworkDisplayName = ".NET 5.0")][m
+[1mdiff --git a/obj/Debug/net5.0/apphost.exe b/obj/Debug/net5.0/apphost.exe[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c781f80[m
+Binary files /dev/null and b/obj/Debug/net5.0/apphost.exe differ
+[1mdiff --git a/obj/Debug/net5.0/assigment 02.AssemblyInfo.cs b/obj/Debug/net5.0/assigment 02.AssemblyInfo.cs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0d37bf0[m
+[1m--- /dev/null[m
+[1m+++ b/obj/Debug/net5.0/assigment 02.AssemblyInfo.cs[m	
+[36m@@ -0,0 +1,23 @@[m
+[32m+[m[32m//------------------------------------------------------------------------------[m
+[32m+[m[32m// <auto-generated>[m
+[32m+[m[32m//     This code was generated by a tool.[m
+[32m+[m[32m//     Runtime Version:4.0.30319.42000[m
+[32m+[m[32m//[m
+[32m+[m[32m//     Changes to this file may cause incorrect behavior and will be lost if[m
+[32m+[m[32m//     the code is regenerated.[m
+[32m+[m[32m// </auto-generated>[m
+[32m+[m[32m//------------------------------------------------------------------------------[m
+[32m+[m
+[32m+[m[32musing System;[m
+[32m+[m[32musing System.Reflection;[m
+[32m+[m
+[32m+[m[32m[assembly: System.Reflection.AssemblyCompanyAttribute("assigment 02")][m
+[32m+[m[32m[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")][m
+[32m+[m[32m[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")][m
+[32m+[m[32m[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")][m
+[32m+[m[32m[assembly: System.Reflection.AssemblyProductAttribute("assigment 02")][m
+[32m+[m[32m[assembly: System.Reflection.AssemblyTitleAttribute("assigment 02")][m
+[32m+[m[32m[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")][m
+[32m+[m
+[32m+[m[32m// Generated by the MSBuild WriteCodeFragment class.[m
+[32m+[m
+[1mdiff --git a/obj/Debug/net5.0/assigment 02.AssemblyInfoInputs.cache b/obj/Debug/net5.0/assigment 02.AssemblyInfoInputs.cache[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e2ea555[m
+[1m--- /dev/null[m
+[1m+++ b/obj/Debug/net5.0/assigment 02.AssemblyInfoInputs.cache[m	
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32me94ce4bfdeea9142b58e67cae99ac2baee0008c4ad2e675c44e2d14d800f15fa[m
+[1mdiff --git a/obj/Debug/net5.0/assigment 02.GeneratedMSBuildEditorConfig.editorconfig b/obj/Debug/net5.0/assigment 02.GeneratedMSBuildEditorConfig.editorconfig[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d716b9f[m
+[1m--- /dev/null[m
+[1m+++ b/obj/Debug/net5.0/assigment 02.GeneratedMSBuildEditorConfig.editorconfig[m	
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32mis_global = true[m
+[32m+[m[32mbuild_property.TargetFramework = net5.0[m
+[32m+[m[32mbuild_property.TargetPlatformMinVersion =[m[41m [m
+[32m+[m[32mbuild_property.UsingMicrosoftNETSdkWeb =[m[41m [m
+[32m+[m[32mbuild_property.ProjectTypeGuids =[m[41m [m
+[32m+[m[32mbuild_property.InvariantGlobalization =[m[41m [m
+[32m+[m[32mbuild_property.PlatformNeutralAssembly =[m[41m [m
+[32m+[m[32mbuild_property.EnforceExtendedAnalyzerRules =[m[41m [m
+[32m+[m[32mbuild_property._SupportedPlatformList = Linux,macOS,Windows[m
+[32m+[m[32mbuild_property.RootNamespace = assigment_02[m
+[32m+[m[32mbuild_property.ProjectDir = E:\Backend\assigment 02\assigment 02\[m
+[32m+[m[32mbuild_property.EnableComHosting =[m[41m [m
+[32m+[m[32mbuild_property.EnableGeneratedComInterfaceComImportInterop =[m[41m [m
+[32m+[m[32mbuild_property.EffectiveAnalysisLevelStyle = 5.0[m
+[32m+[m[32mbuild_property.EnableCodeStyleSeverity =[m[41m [m
+[1mdiff --git a/obj/Debug/net5.0/assigment 02.assets.cache b/obj/Debug/net5.0/assigment 02.assets.cache[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a36732e[m
+Binary files /dev/null and b/obj/Debug/net5.0/assigment 02.assets.cache differ
+[1mdiff --git a/obj/Debug/net5.0/assigment 02.csproj.BuildWithSkipAnalyzers b/obj/Debug/net5.0/assigment 02.csproj.BuildWithSkipAnalyzers[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/obj/Debug/net5.0/assigment 02.csproj.CoreCompileInputs.cache b/obj/Debug/net5.0/assigment 02.csproj.CoreCompileInputs.cache[m
+[1mnew file mode 100644[m
+[1mindex 0000000..176f0cd[m
+[1m--- /dev/null[m
+[1m+++ b/obj/Debug/net5.0/assigment 02.csproj.CoreCompileInputs.cache[m	
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m2f6a21cd7ef3c67ce7f04cd9caedabe60a534913605712c493619c5cfc36eee7[m
+[1mdiff --git a/obj/Debug/net5.0/assigment 02.csproj.FileListAbsolute.txt b/obj/Debug/net5.0/assigment 02.csproj.FileListAbsolute.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4e07681[m
+[1m--- /dev/null[m
+[1m+++ b/obj/Debug/net5.0/assigment 02.csproj.FileListAbsolute.txt[m	
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\bin\Debug\net5.0\assigment 02.exe[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\bin\Debug\net5.0\assigment 02.deps.json[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\bin\Debug\net5.0\assigment 02.runtimeconfig.json[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\bin\Debug\net5.0\assigment 02.runtimeconfig.dev.json[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\bin\Debug\net5.0\assigment 02.dll[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\bin\Debug\net5.0\assigment 02.pdb[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\obj\Debug\net5.0\assigment 02.GeneratedMSBuildEditorConfig.editorconfig[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\obj\Debug\net5.0\assigment 02.AssemblyInfoInputs.cache[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\obj\Debug\net5.0\assigment 02.AssemblyInfo.cs[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\obj\Debug\net5.0\assigment 02.csproj.CoreCompileInputs.cache[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\obj\Debug\net5.0\assigment 02.dll[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\obj\Debug\net5.0\refint\assigment 02.dll[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\obj\Debug\net5.0\assigment 02.pdb[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\obj\Debug\net5.0\assigment 02.genruntimeconfig.cache[m
+[32m+[m[32mE:\Backend\assigment 02\assigment 02\obj\Debug\net5.0\ref\assigment 02.dll[m
+[1mdiff --git a/obj/Debug/net5.0/assigment 02.dll b/obj/Debug/net5.0/assigment 02.dll[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3a6fead[m
+Binary files /dev/null and b/obj/Debug/net5.0/assigment 02.dll differ
+[1mdiff --git a/obj/Debug/net5.0/assigment 02.genruntimeconfig.cache b/obj/Debug/net5.0/assigment 02.genruntimeconfig.cache[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c82ad86[m
+[1m--- /dev/null[m
+[1m+++ b/obj/Debug/net5.0/assigment 02.genruntimeconfig.cache[m	
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m15147284a39e56908e798883ed6c50fb31b50fc5e8b7904f56bd866cd7936634[m
+[1mdiff --git a/obj/Debug/net5.0/assigment 02.pdb b/obj/Debug/net5.0/assigment 02.pdb[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6f623f8[m
+Binary files /dev/null and b/obj/Debug/net5.0/assigment 02.pdb differ
+[1mdiff --git a/obj/Debug/net5.0/ref/assigment 02.dll b/obj/Debug/net5.0/ref/assigment 02.dll[m
+[1mnew file mode 100644[m
+[1mindex 0000000..16665cf[m
+Binary files /dev/null and b/obj/Debug/net5.0/ref/assigment 02.dll differ
+[1mdiff --git a/obj/Debug/net5.0/refint/assigment 02.dll b/obj/Debug/net5.0/refint/assigment 02.dll[m
+[1mnew file mode 100644[m
+[1mindex 0000000..16665cf[m
+Binary files /dev/null and b/obj/Debug/net5.0/refint/assigment 02.dll differ
+[1mdiff --git a/obj/assigment 02.csproj.nuget.dgspec.json b/obj/assigment 02.csproj.nuget.dgspec.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4191d91[m
+[1m--- /dev/null[m
+[1m+++ b/obj/assigment 02.csproj.nuget.dgspec.json[m	
+[36m@@ -0,0 +1,73 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "format": 1,[m
+[32m+[m[32m  "restore": {[m
+[32m+[m[32m    "E:\\Backend\\assigment 02\\assigment 02\\assigment 02.csproj": {}[m
+[32m+[m[32m  },[m
+[32m+[m[32m  "projects": {[m
+[32m+[m[32m    "E:\\Backend\\assigment 02\\assigment 02\\assigment 02.csproj": {[m
+[32m+[m[32m      "version": "1.0.0",[m
+[32m+[m[32m      "restore": {[m
+[32m+[m[32m        "projectUniqueName": "E:\\Backend\\assigment 02\\assigment 02\\assigment 02.csproj",[m
+[32m+[m[32m        "projectName": "assigment 02",[m
+[32m+[m[32m        "projectPath": "E:\\Backend\\assigment 02\\assigment 02\\assigment 02.csproj",[m
+[32m+[m[32m        "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",[m
+[32m+[m[32m        "outputPath": "E:\\Backend\\assigment 02\\assigment 02\\obj\\",[m
+[32m+[m[32m        "projectStyle": "PackageReference",[m
+[32m+[m[32m        "fallbackFolders": [[m
+[32m+[m[32m          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"[m
+[32m+[m[32m        ],[m
+[32m+[m[32m        "configFilePaths": [[m
+[32m+[m[32m          "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",[m
+[32m+[m[32m          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",[m
+[32m+[m[32m          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"[m
+[32m+[m[32m        ],[m
+[32m+[m[32m        "originalTargetFrameworks": [[m
+[32m+[m[32m          "net5.0"[m
+[32m+[m[32m        ],[m
+[32m+[m[32m        "sources": {[m
+[32m+[m[32m          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},[m
+[32m+[m[32m          "https://api.nuget.org/v3/index.json": {}[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "frameworks": {[m
+[32m+[m[32m          "net5.0": {[m
+[32m+[m[32m            "targetAlias": "net5.0",[m
+[32m+[m[32m            "projectReferences": {}[m
+[32m+[m[32m          }[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "warningProperties": {[m
+[32m+[m[32m          "warnAsError": [[m
+[32m+[m[32m            "NU1605"[m
+[32m+[m[32m          ][m
+[32m+[m[32m        },[m
+[32m+[m[32m        "restoreAuditProperties": {[m
+[32m+[m[32m          "enableAudit": "true",[m
+[32m+[m[32m          "auditLevel": "low",[m
+[32m+[m[32m          "auditMode": "all"[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "SdkAnalysisLevel": "9.0.100"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "frameworks": {[m
+[32m+[m[32m        "net5.0": {[m
+[32m+[m[32m          "targetAlias": "net5.0",[m
+[32m+[m[32m          "imports": [[m
+[32m+[m[32m            "net461",[m
+[32m+[m[32m            "net462",[m
+[32m+[m[32m            "net47",[m
+[32m+[m[32m            "net471",[m
+[32m+[m[32m            "net472",[m
+[32m+[m[32m            "net48",[m
+[32m+[m[32m            "net481"[m
+[32m+[m[32m          ],[m
+[32m+[m[32m          "assetTargetFallback": true,[m
+[32m+[m[32m          "warn": true,[m
+[32m+[m[32m          "frameworkReferences": {[m
+[32m+[m[32m            "Microsoft.NETCore.App": {[m
+[32m+[m[32m              "privateAssets": "all"[m
+[32m+[m[32m            }[m
+[32m+[m[32m          },[m
+[32m+[m[32m          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"[m
+[32m+[m[32m        }[m
+[32m+[m[32m      }[m
+[32m+[m[32m    }[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/obj/assigment 02.csproj.nuget.g.props b/obj/assigment 02.csproj.nuget.g.props[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7521292[m
+[1m--- /dev/null[m
+[1m+++ b/obj/assigment 02.csproj.nuget.g.props[m	
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32m﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>[m
+[32m+[m[32m<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">[m
+[32m+[m[32m  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">[m
+[32m+[m[32m    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>[m
+[32m+[m[32m    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>[m
+[32m+[m[32m    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>[m
+[32m+[m[32m    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>[m
+[32m+[m[32m    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\moham\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>[m
+[32m+[m[32m    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>[m
+[32m+[m[32m    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.12.1</NuGetToolVersion>[m
+[32m+[m[32m  </PropertyGroup>[m
+[32m+[m[32m  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">[m
+[32m+[m[32m    <SourceRoot Include="C:\Users\moham\.nuget\packages\" />[m
+[32m+[m[32m    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />[m
+[32m+[m[32m  </ItemGroup>[m
+[32m+[m[32m</Project>[m
+\ No newline at end of file[m
+[1mdiff --git a/obj/assigment 02.csproj.nuget.g.targets b/obj/assigment 02.csproj.nuget.g.targets[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3dc06ef[m
+[1m--- /dev/null[m
+[1m+++ b/obj/assigment 02.csproj.nuget.g.targets[m	
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>[m
+[32m+[m[32m<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />[m
+\ No newline at end of file[m
+[1mdiff --git a/obj/project.assets.json b/obj/project.assets.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5509f37[m
+[1m--- /dev/null[m
+[1m+++ b/obj/project.assets.json[m
+[36m@@ -0,0 +1,79 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "version": 3,[m
+[32m+[m[32m  "targets": {[m
+[32m+[m[32m    "net5.0": {}[m
+[32m+[m[32m  },[m
+[32m+[m[32m  "libraries": {},[m
+[32m+[m[32m  "projectFileDependencyGroups": {[m
+[32m+[m[32m    "net5.0": [][m
+[32m+[m[32m  },[m
+[32m+[m[32m  "packageFolders": {[m
+[32m+[m[32m    "C:\\Users\\moham\\.nuget\\packages\\": {},[m
+[32m+[m[32m    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}[m
+[32m+[m[32m  },[m
+[32m+[m[32m  "project": {[m
+[32m+[m[32m    "version": "1.0.0",[m
+[32m+[m[32m    "restore": {[m
+[32m+[m[32m      "projectUniqueName": "E:\\Backend\\assigment 02\\assigment 02\\assigment 02.csproj",[m
+[32m+[m[32m      "projectName": "assigment 02",[m
+[32m+[m[32m      "projectPath": "E:\\Backend\\assigment 02\\assigment 02\\assigment 02.csproj",[m
+[32m+[m[32m      "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",[m
+[32m+[m[32m      "outputPath": "E:\\Backend\\assigment 02\\assigment 02\\obj\\",[m
+[32m+[m[32m      "projectStyle": "PackageReference",[m
+[32m+[m[32m      "fallbackFolders": [[m
+[32m+[m[32m        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "configFilePaths": [[m
+[32m+[m[32m        "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",[m
+[32m+[m[32m        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",[m
+[32m+[m[32m        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "originalTargetFrameworks": [[m
+[32m+[m[32m        "net5.0"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "sources": {[m
+[32m+[m[32m        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},[m
+[32m+[m[32m        "https://api.nuget.org/v3/index.json": {}[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "frameworks": {[m
+[32m+[m[32m        "net5.0": {[m
+[32m+[m[32m          "targetAlias": "net5.0",[m
+[32m+[m[32m          "projectReferences": {}[m
+[32m+[m[32m        }[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "warningProperties": {[m
+[32m+[m[32m        "warnAsError": [[m
+[32m+[m[32m          "NU1605"[m
+[32m+[m[32m        ][m
+[32m+[m[32m      },[m
+[32m+[m[32m      "restoreAuditProperties": {[m
+[32m+[m[32m        "enableAudit": "true",[m
+[32m+[m[32m        "auditLevel": "low",[m
+[32m+[m[32m        "auditMode": "all"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "SdkAnalysisLevel": "9.0.100"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "frameworks": {[m
+[32m+[m[32m      "net5.0": {[m
+[32m+[m[32m        "targetAlias": "net5.0",[m
+[32m+[m[32m        "imports": [[m
+[32m+[m[32m          "net461",[m
+[32m+[m[32m          "net462",[m
+[32m+[m[32m          "net47",[m
+[32m+[m[32m          "net471",[m
+[32m+[m[32m          "net472",[m
+[32m+[m[32m          "net48",[m
+[32m+[m[32m          "net481"[m
+[32m+[m[32m        ],[m
+[32m+[m[32m        "assetTargetFallback": true,[m
+[32m+[m[32m        "warn": true,[m
+[32m+[m[32m        "frameworkReferences": {[m
+[32m+[m[32m          "Microsoft.NETCore.App": {[m
+[32m+[m[32m            "privateAssets": "all"[m
+[32m+[m[32m          }[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    }[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/obj/project.nuget.cache b/obj/project.nuget.cache[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dad377e[m
+[1m--- /dev/null[m
+[1m+++ b/obj/project.nuget.cache[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "version": 2,[m
+[32m+[m[32m  "dgSpecHash": "BH7vebu6WuI=",[m
+[32m+[m[32m  "success": true,[m
+[32m+[m[32m  "projectFilePath": "E:\\Backend\\assigment 02\\assigment 02\\assigment 02.csproj",[m
+[32m+[m[32m  "expectedPackageFiles": [],[m
+[32m+[m[32m  "logs": [][m
+[32m+[m[32m}[m
+\ No newline at end of file[m
