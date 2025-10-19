@@ -1,0 +1,16 @@
+E:\Backend\Last session oop\c# assigment\c# assigment\bin\Debug\net5.0\c# assigment.exe
+E:\Backend\Last session oop\c# assigment\c# assigment\bin\Debug\net5.0\c# assigment.deps.json
+E:\Backend\Last session oop\c# assigment\c# assigment\bin\Debug\net5.0\c# assigment.runtimeconfig.json
+E:\Backend\Last session oop\c# assigment\c# assigment\bin\Debug\net5.0\c# assigment.runtimeconfig.dev.json
+E:\Backend\Last session oop\c# assigment\c# assigment\bin\Debug\net5.0\c# assigment.dll
+E:\Backend\Last session oop\c# assigment\c# assigment\bin\Debug\net5.0\c# assigment.pdb
+E:\Backend\Last session oop\c# assigment\c# assigment\obj\Debug\net5.0\c# assigment.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backend\Last session oop\c# assigment\c# assigment\obj\Debug\net5.0\c# assigment.AssemblyInfoInputs.cache
+E:\Backend\Last session oop\c# assigment\c# assigment\obj\Debug\net5.0\c# assigment.AssemblyInfo.cs
+E:\Backend\Last session oop\c# assigment\c# assigment\obj\Debug\net5.0\c# assigment.csproj.CoreCompileInputs.cache
+E:\Backend\Last session oop\c# assigment\c# assigment\obj\Debug\net5.0\c# assigment.sourcelink.json
+E:\Backend\Last session oop\c# assigment\c# assigment\obj\Debug\net5.0\c# assigment.dll
+E:\Backend\Last session oop\c# assigment\c# assigment\obj\Debug\net5.0\refint\c# assigment.dll
+E:\Backend\Last session oop\c# assigment\c# assigment\obj\Debug\net5.0\c# assigment.pdb
+E:\Backend\Last session oop\c# assigment\c# assigment\obj\Debug\net5.0\c# assigment.genruntimeconfig.cache
+E:\Backend\Last session oop\c# assigment\c# assigment\obj\Debug\net5.0\ref\c# assigment.dll
