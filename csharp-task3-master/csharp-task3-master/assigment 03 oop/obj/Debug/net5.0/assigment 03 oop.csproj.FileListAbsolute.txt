@@ -1,0 +1,15 @@
+E:\Backend\assigment 03 oop\assigment 03 oop\bin\Debug\net5.0\assigment 03 oop.exe
+E:\Backend\assigment 03 oop\assigment 03 oop\bin\Debug\net5.0\assigment 03 oop.deps.json
+E:\Backend\assigment 03 oop\assigment 03 oop\bin\Debug\net5.0\assigment 03 oop.runtimeconfig.json
+E:\Backend\assigment 03 oop\assigment 03 oop\bin\Debug\net5.0\assigment 03 oop.runtimeconfig.dev.json
+E:\Backend\assigment 03 oop\assigment 03 oop\bin\Debug\net5.0\assigment 03 oop.dll
+E:\Backend\assigment 03 oop\assigment 03 oop\bin\Debug\net5.0\assigment 03 oop.pdb
+E:\Backend\assigment 03 oop\assigment 03 oop\obj\Debug\net5.0\assigment 03 oop.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backend\assigment 03 oop\assigment 03 oop\obj\Debug\net5.0\assigment 03 oop.AssemblyInfoInputs.cache
+E:\Backend\assigment 03 oop\assigment 03 oop\obj\Debug\net5.0\assigment 03 oop.AssemblyInfo.cs
+E:\Backend\assigment 03 oop\assigment 03 oop\obj\Debug\net5.0\assigment 03 oop.csproj.CoreCompileInputs.cache
+E:\Backend\assigment 03 oop\assigment 03 oop\obj\Debug\net5.0\assigment 03 oop.dll
+E:\Backend\assigment 03 oop\assigment 03 oop\obj\Debug\net5.0\refint\assigment 03 oop.dll
+E:\Backend\assigment 03 oop\assigment 03 oop\obj\Debug\net5.0\assigment 03 oop.pdb
+E:\Backend\assigment 03 oop\assigment 03 oop\obj\Debug\net5.0\assigment 03 oop.genruntimeconfig.cache
+E:\Backend\assigment 03 oop\assigment 03 oop\obj\Debug\net5.0\ref\assigment 03 oop.dll

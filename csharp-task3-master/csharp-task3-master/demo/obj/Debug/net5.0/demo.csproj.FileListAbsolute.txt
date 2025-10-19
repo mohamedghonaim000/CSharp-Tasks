@@ -1,0 +1,15 @@
+E:\Backend\assigment 03 oop\demo\bin\Debug\net5.0\demo.exe
+E:\Backend\assigment 03 oop\demo\bin\Debug\net5.0\demo.deps.json
+E:\Backend\assigment 03 oop\demo\bin\Debug\net5.0\demo.runtimeconfig.json
+E:\Backend\assigment 03 oop\demo\bin\Debug\net5.0\demo.runtimeconfig.dev.json
+E:\Backend\assigment 03 oop\demo\bin\Debug\net5.0\demo.dll
+E:\Backend\assigment 03 oop\demo\bin\Debug\net5.0\demo.pdb
+E:\Backend\assigment 03 oop\demo\obj\Debug\net5.0\demo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backend\assigment 03 oop\demo\obj\Debug\net5.0\demo.AssemblyInfoInputs.cache
+E:\Backend\assigment 03 oop\demo\obj\Debug\net5.0\demo.AssemblyInfo.cs
+E:\Backend\assigment 03 oop\demo\obj\Debug\net5.0\demo.csproj.CoreCompileInputs.cache
+E:\Backend\assigment 03 oop\demo\obj\Debug\net5.0\demo.dll
+E:\Backend\assigment 03 oop\demo\obj\Debug\net5.0\refint\demo.dll
+E:\Backend\assigment 03 oop\demo\obj\Debug\net5.0\demo.pdb
+E:\Backend\assigment 03 oop\demo\obj\Debug\net5.0\demo.genruntimeconfig.cache
+E:\Backend\assigment 03 oop\demo\obj\Debug\net5.0\ref\demo.dll
